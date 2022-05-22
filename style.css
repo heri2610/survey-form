@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(img/bacground.jpg);
+  color: rgb(165, 195, 201);
+}
+
+#main {
+  width: 700px;
+  margin: 30px auto;
+  padding: 10px;
+  display: flex;
+  background-color: rgba(13, 52, 78, 0.9);
+  flex-direction: column;
+  align-items: center;
+}
+form {
+  width: 70%;
+}
+input,
+select {
+  width: 100%;
+  margin-bottom: 5px;
+  padding: 2px;
+}
+p {
+  margin: 0;
+}
+#select {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+button {
+  background-color: rgb(236, 234, 122);
+}
+
+#mbuh,
+#persetujuan {
+  width: 5%;
+}
